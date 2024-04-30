@@ -29,7 +29,7 @@ public class LightBoard
   {
     /* to be implemented in part (b) */
    int numOn = 0;
-    for(int r = 0; r < lights.langth; r++){
+    for(int r = 0; r < lights.length; r++){
       if(lights[r][col]){
         numOn++;
       }
